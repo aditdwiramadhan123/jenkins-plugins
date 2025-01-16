@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jenkins-ci.plugins</groupId>
+  <artifactId>android-emulator</artifactId>
+  <version>652.v185536c05086</version>
+  <packaging>hpi</packaging>
+  <name>Android Emulator Plugin</name>
+  <description>The Jenkins Plugins Parent POM Project</description>
+  <url>http://wiki.jenkins-ci.org/display/JENKINS/Android+Emulator+Plugin</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>orrc</id>
+      <name>Christopher Orr</name>
+      <email>chris@orr.me.uk</email>
+      <timezone>1</timezone>
+    </developer>
+    <developer>
+      <id>nfalco79</id>
+      <name>Nikolas Falco</name>
+      <email>nfalco79@hotmail.com</email>
+      <timezone>+1</timezone>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/jenkinsci/android-emulator-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/android-emulator-plugin.git</developerConnection>
+    <tag>185536c0508687a5163cdf4c4892633bbf8a3160</tag>
+    <url>https://github.com/jenkinsci/android-emulator-plugin</url>
+  </scm>
+  <distributionManagement>
+    <repository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <dependencies>
+    <dependency>
+      <groupId>io.jenkins.plugins</groupId>
+      <artifactId>commons-lang3-api</artifactId>
+      <version>3.17.0-84.vb_b_938040b_078</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>port-allocator</artifactId>
+      <version>1.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>matrix-project</artifactId>
+      <version>840.v812f627cb_578</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>org.apache.commons</groupId>
+          <artifactId>commons-lang3</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>net.dongliu</groupId>
+      <artifactId>apk-parser</artifactId>
+      <version>2.6.10</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.jenkins-ci.tools</groupId>
+        <artifactId>maven-hpi-plugin</artifactId>
+        <version>3.59</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

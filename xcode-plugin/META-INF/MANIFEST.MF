@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Hudson-Version: 2.319.1
+Plugin-Dependencies: jaxb:2.3.6-1,workflow-cps:2660.vb_c0412dc4e6d;res
+ olution:=optional,credentials-binding:523.vd859a_4b_122e6,credentials
+ :1087.1089.v2f1b_9a_b_040e4,structs:318.va_f3ccb_729b_71,token-macro:
+ 293.v283932a_0a_b_49,pipeline-model-definition:1.9.3,pipeline-model-e
+ xtensions:1.9.3
+Implementation-Title: Xcode integration
+Long-Name: Xcode integration
+Implementation-Version: 2.0.17-565.v1c48051d46ef
+Group-Id: org.jenkins-ci.plugins
+Minimum-Java-Version: 1.8
+Plugin-License-Name: MIT
+Specification-Title: Xcode integration
+Plugin-ScmUrl: https://github.com/jenkinsci/xcode-plugin
+Plugin-Version: 2.0.17-565.v1c48051d46ef
+Jenkins-Version: 2.319.1
+Url: https://github.com/jenkinsci/xcode-plugin
+Short-Name: xcode-plugin
+Plugin-License-Url: LICENSE.txt
+Compatible-Since-Version: 2.0.0
+Plugin-Developers: Ray Yamamoto Hilton:rayhilton:ray.hilton@gmail.com,
+ Arnaud Heritier:aheritier:aheritier@apache.org,Jerome Lacoste:lacoste
+ j:jerome.lacoste@gmail.com,Kazuhide Takahashi:kazuhidet:kazuhide.t@li
+ nux-powered.com
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.2
+Specification-Version: 2.0
+

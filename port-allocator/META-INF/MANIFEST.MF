@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: Jenkins Port Allocator Plug-in
+Specification-Version: 1.11
+Implementation-Title: Jenkins Port Allocator Plug-in
+Implementation-Version: 1.11
+Plugin-Class: org.jvnet.hudson.plugins.port_allocator.PluginImpl
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: port-allocator
+Short-Name: port-allocator
+Long-Name: Jenkins Port Allocator Plug-in
+Url: https://github.com/jenkinsci/port-allocator-plugin
+Plugin-Version: 1.11
+Hudson-Version: 2.452.4
+Jenkins-Version: 2.452.4
+Plugin-Developers: Rama Pulavarthi:ramapulavarthi:,Kohsuke Kawaguchi:koh
+ suke:,Richard Mortimer:oldelvet:,Peter Wilcsinszky:pepov:
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/port-allocato
+ r-plugin.git
+Plugin-ScmTag: port-allocator-1.11
+Plugin-ScmUrl: https://github.com/jenkinsci/port-allocator-plugin
+Plugin-GitHash: 40a310a4b4d6903b94a84c5982b911cbd72a8793
+Implementation-Build: 40a310a4b4d6903b94a84c5982b911cbd72a8793
+

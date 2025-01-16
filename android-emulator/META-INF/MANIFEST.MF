@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Android Emulator Plugin
+Specification-Version: 0.0
+Implementation-Title: Android Emulator Plugin
+Implementation-Version: 652.v185536c05086
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: android-emulator
+Short-Name: android-emulator
+Long-Name: Android Emulator Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Android+Emulator+Plugin
+Plugin-Version: 652.v185536c05086
+Hudson-Version: 2.479.1
+Jenkins-Version: 2.479.1
+Plugin-Dependencies: commons-lang3-api:3.17.0-84.vb_b_938040b_078,matrix
+ -project:840.v812f627cb_578,port-allocator:1.10
+Plugin-Developers: Christopher Orr:orrc:chris@orr.me.uk,Nikolas Falco:nf
+ alco79:nfalco79@hotmail.com
+Plugin-License-Name: The MIT License (MIT)
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/android-emula
+ tor-plugin.git
+Plugin-ScmTag: 185536c0508687a5163cdf4c4892633bbf8a3160
+Plugin-ScmUrl: https://github.com/jenkinsci/android-emulator-plugin
+Implementation-Build: 185536c0508687a5163cdf4c4892633bbf8a3160
+
